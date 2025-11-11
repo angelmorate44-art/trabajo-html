@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciberseguridade: ataques e defensa</title>
+
+  <style>
+    /* ====== ESTILOS CSS ====== */
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0055aa;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #e0e0e0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #0077cc;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0055aa;
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 5px;
+    }
+
+    ul, ol {
+      margin-left: 40px;
+    }
+
+    img {
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #555;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0077cc;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Ciberseguridade:</h1>
+  </header>
+
+  <nav>
+    <a href="#ataques">Tipos de ataques</a> |
+    <a href="#defensa">Mecanismos de defensa</a> |
+    <a href="#recursos">Recursos adicionais</a>
+  </nav>
+
+  <section id="introducion">
+    <h2>Que é a Ciberseguridade?</h2>
+    <p>
+      A ciberseguridade é o conxunto de medidas e prácticas destinadas a protexer sistemas informáticos e datos fronte a ataques ou accesos non autorizados.
+    </p>
+    <p>
+      Cada día aparecen novas ameazas, polo que é fundamental coñecer os principais tipos de ataques e os mecanismos de defensa dispoñibles.
+    </p>
+  </section>
+
+  <section id="ataques">
+    <h2>Principais tipos de ataques</h2>
+    <ul>
+      <li><strong>Phishing:</strong> correos ou páxinas falsas que buscan roubar datos persoais.</li>
+      <li><strong>Malware:</strong> software malicioso que danifica ou espía o sistema.</li>
+      <li><strong>Ataques DDoS:</strong> saturan un servidor con tráfico falso para deixalo inoperativo.</li>
+    </ul>
+    <img src="https://www.trendmicro.com/content/dam/trendmicro/global/en/what-is/phishing/phishing_example_2.png.jpg" alt="Exemplo de phishing" width="300">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxyPcOPCvnkQ5cKyMs3Ocv3AygknY3G19sXA&s" alt="Malware" width="300">
+    <img src="https://i.blogs.es/3f77a0/ddos-attacks1/650_1200.png" alt="Ataque DDoS" width="300">
+  </section>
+
+  <section id="defensa">
+    <h2>Mecanismos de defensa</h2>
+    <ol>
+      <li>Usar contrasinais fortes e autenticación dobre.</li>
+      <li>Actualizar o software con frecuencia.</li>
+      <li>Instalar antivirus e cortalumes.</li>
+    </ol>
+
+    <table>
+      <tr>
+        <th>Mecanismo</th>
+        <th>Función</th>
+      </tr>
+      <tr>
+        <td>Antivirus</td>
+        <td>Detecta e elimina software malicioso.</td>
+      </tr>
+      <tr>
+        <td>Cortalumes</td>
+        <td>Bloquea conexións non desexadas.</td>
+      </tr>
+      <tr>
+        <td>Autenticación 2FA</td>
+        <td>Engade unha capa extra de seguridade.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="recursos">
+    <h2>Recursos adicionais</h2>
+    <ul>
+      <li><a href="https://www.incibe.es" target="_blank">INCIBE - Instituto Nacional de Ciberseguridade</a></li>
+      <li><a href="https://www.cisa.gov" target="_blank">CISA - Cybersecurity & Infrastructure Security Agency</a></li>
+      <li><a href="https://www.kaspersky.com/resource-center" target="_blank">Kaspersky Resource Center</a></li>
+    </ul>
+  </section>
+</body>
+</html>
+
